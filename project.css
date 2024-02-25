@@ -1,0 +1,235 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scrollbar-width:thin;
+        scroll-behavior: smooth;
+        scrollbar-color:  rgba(156, 156, 160, 0.304);
+    }
+
+    body{
+        /* height: 200vw; */
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    /* Font style */
+    .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+
+    .bg-nav{
+        background-color:#F9F6EE;
+    }
+    .dropdown:hover > .dropdown-menu{
+        display: block;
+        margin-top:0;  /*to make the dropdown stable so that there is no movement of dropdown of 1 px */  
+    }
+
+    .navcolor{
+        background-color: rgba(0.15,0.15,0.15,0.15);
+    }
+
+    #myVideo{
+    position:absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    }
+
+    @media(min-aspect-ratio:16/9){
+        #myVideo{
+            width: 100%;
+            height:auto;
+        }
+    }
+
+    @media(max-aspect-ratio:16/9){
+        #myVideo{
+            width: auto;
+            height:100%;
+        }
+    }
+
+    .card{
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    .row{
+        display: flex;
+        flex-direction:row;
+    }
+    #project.card-body{
+    padding:25px;
+    margin-top:-15px;
+    }
+
+    /* anahita */
+    .card#project {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 0px;
+        overflow: hidden;
+    }
+    #project.card img {
+        width: 100%;
+        height: auto;
+        max-width: 100%; 
+    }
+    footer {
+        background-color: #f8f9fa; 
+        color: #333; 
+        text-align: center;
+        padding: 20px 0;
+    }
+    .map-container {
+        width: 100%;
+        max-width: 500px; 
+        margin: 0 auto;
+    }
+    p{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .rounded-image {
+        border-radius: 50%; 
+    
+    }
+
+    /*@media (min-width: 768px) {
+        To align image and about section horizontally on larger screens */
+        /*.about-section {
+        margin-left: 20px;
+        }
+    }*/
+    
+    #india{
+        color: orangered;
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #choose{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    #para{
+        font-size: larger;
+    }
+    #about {
+        padding: 50px 0;
+        background-color: #062c62;
+        color: white;
+        height: 25rem;
+    }
+
+    .btn-primary {
+        background-color: transparent;
+        border: 2px solid orangered;
+        color: orangered;
+        border-radius: 0;
+    }
+
+    .btn-primary:hover {
+        background-color: orangered;
+        border-color: orangered;
+        color: white;
+    }
+    .about-section{
+        margin-top: 3%;
+    }
+    #aboutus{
+        padding: 50px 0;
+        background-color: #062c62;
+        color: white;
+        height: 25rem;
+    }
+    /*directors*/
+    
+#director>.card-img-top{
+    border-radius: 50%;
+    height:180px;
+    width:180px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:cover;
+    top:-70px;
+    cursor:pointer;
+}
+.card#director{
+    border-radius: 0;
+    cursor:pointer;
+    margin-top: 150px;
+  
+}
+
+.card:hover#director{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+/*landing page*/
+.header-section {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Assets/Images/background.avif');
+    background-size: cover; /* Ensure the background image covers the entire header */
+    filter: brightness(50%); /* Adjust brightness as needed */
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Adjust text color */
+    z-index: 1;
+}
+
+.header-content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+}
+
+.header-content-text {
+    z-index: 2;
+}
+
+.header-content h1 {
+    font-size: 48px; /* Adjust font size as needed */
+    margin-bottom: 20px;
+    font-weight: bold; /* Add bold font weight */
+}
+
+.header-content p {
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 0;
+    font-style: italic; /* Add italic style */
+}
+
+
+    
+
+
+
