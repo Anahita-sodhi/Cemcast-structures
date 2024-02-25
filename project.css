@@ -227,9 +227,9 @@
     margin-bottom: 0;
     font-style: italic; /* Add italic style */
 }
-@media (max-width: 767px) {
+@media (max-width: 950px) {
     .header-content h1 {
-        font-size: 36px; 
+        font-size: 30px; 
         margin-bottom: 10px; 
     }
 
