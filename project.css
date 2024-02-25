@@ -227,7 +227,17 @@
     margin-bottom: 0;
     font-style: italic; /* Add italic style */
 }
+@media (max-width: 767px) {
+    .header-content h1 {
+        font-size: 36px; 
+        margin-bottom: 10px; 
+    }
 
+    .header-content p {
+        font-size: 18px; 
+    }
+   
+}
 
     
 
