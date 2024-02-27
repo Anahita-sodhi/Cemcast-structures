@@ -27,26 +27,7 @@
     background-color: rgba(0.15,0.15,0.15,0.15);
 }
 
-#myVideo{
- position:absolute;
-z-index: -1;
-right: 0;
-bottom: 0;
-}
-
-@media(min-aspect-ratio:16/9){
-    #myVideo{
-        width: 100%;
-        height:auto;
-    }
-}
-
-@media(max-aspect-ratio:16/9){
-    #myVideo{
-        width: auto;
-        height:100%;
-    }
-}
+  
 
 .card-img-top{
     border-radius: 50%;
@@ -238,6 +219,9 @@ h2{
     }
     .rectangle {
         width: 90%; 
+    }
+    #choose{
+        font-size: 2rem;
     }
     
 }
