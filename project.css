@@ -20,19 +20,17 @@
   }
 .dropdown:hover > .dropdown-menu{
     display: block;
-    margin-top:0;  /*to make the dropdown stable so that there is no movement of dropdown of 1 px */  
+    margin-top:0;  
 }
 
 .navcolor{
     background-color: rgba(0.15,0.15,0.15,0.15);
 }
 
-  
-
 .card-img-top{
     border-radius: 50%;
-    height:180px;
-    width:180px;
+    height:220px;
+    width:140px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -130,9 +128,9 @@ h2{
 
 .rectangle {
     margin-top:10vh;
-    width: 50%; /* Adjusted to a percentage for responsiveness */
-    max-width: 50rem; /* Maximum width */
-    height:50%; /* Allow height to adjust according to content */
+    width: 50%; 
+    max-width: 50rem; 
+    height:50%; 
     border-radius: 2rem;  
     position: absolute;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -153,9 +151,9 @@ h2{
 .landing-page img {
     width: 50%;
     position: absolute;
-    top:-10%; /* Adjusted to position it at the top */
+    top:-10%; 
     left: 50%;
-    transform: translate(-50%, -50%); /* To center horizontally and vertically */
+    transform: translate(-50%, -50%); 
 }
 
 /*heading*/
@@ -202,8 +200,9 @@ h2{
         width:auto;
         height:auto;
     }
-    
-    
+    .col-md-4{
+        justify-content: center;
+    }
 }
 /*serivices*/
 .service-item {
@@ -226,16 +225,17 @@ h2{
 }
 /* photo gallery */
 .photo-gallery{
-    background-color: #062c62;
+    background-color: #ebeef3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .photo-gallery h1{
-    color: orangered;
+    color:#062c62;
 }
 
 .photo-gallery p{
-    color: #f8f9fa;
+    color:#062c62;
+
 }
 
 #pos{
@@ -256,7 +256,7 @@ h2{
     .rectangle p{
         font-size :2.7rem;;
         font-weight:700;
-        margin-top: -2%;
+        margin-top: 2%;
        
     }
     #main-heading{
@@ -271,9 +271,17 @@ h2{
     }
     #para{
         font-size: 1rem;
-    }
-    
-    
+    } 
+}
+/*content justification*/
+.col-md-6{
+    justify-content: space-evenly;
+}
+.py-3{
+    justify-content:space-evenly;
+}
+#benefits p{
+justify-content: space-evenly;
 }
 /*for iphone5
 @media (min-width:320px)
