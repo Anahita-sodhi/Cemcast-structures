@@ -46,27 +46,14 @@
     margin-top: 100px;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
+
 }
 
-/* anahita */
-/* .card {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
+.card:hover img {
+    transform: scale(1.1);
 }
-
-
-.card img {
-    width: 100%;
-    height: auto;
-    max-width: 100%; 
-}*/
 footer {
     background-color: #f8f9fa; 
     color: #333; 
@@ -138,10 +125,6 @@ h2{
     flex-wrap: wrap;
     justify-content: center; 
     align-items: center; 
-    /*background-image: url(Assets/Images/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color:#062c62;*/
     
 } 
 
@@ -166,6 +149,7 @@ h2{
     color: #062c62;
 }
 
+
 .landing-page img {
     width: 50%;
     position: absolute;
@@ -183,24 +167,12 @@ h2{
     font-style: italic;
 }
 
-/* @media only screen and (max-width: 992px) {
-    .image {
-        top: 12%; /* Adjusted top position for smaller screens 
-    }
+#map{
+    width:30rem;
+    height:13rem;
 }
 
-@media only screen and (max-width: 840px) {
-    .image {
-        top: 19%; /* Adjusted top position for smaller screens 
-    }
-}
 
-@media only screen and (max-width: 768px) {
-    .image {
-        top: 16%; /* Adjusted top position for smaller screens 
-    }
-} */
-/*for phone*/
 @media screen and (min-width: 300px) and (max-width: 950px) {
     
     #india{
@@ -226,6 +198,10 @@ h2{
     #para{
         font-size: 1rem;
     }
+    #map{
+        width:auto;
+        height:auto;
+    }
     
     
 }
@@ -248,3 +224,67 @@ h2{
 .service-item h3 {
     margin-top: 0;
 }
+/* photo gallery */
+.photo-gallery{
+    background-color: #062c62;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.photo-gallery h1{
+    color: orangered;
+}
+
+.photo-gallery p{
+    color: #f8f9fa;
+}
+
+#pos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 750px) and (max-width: 1290px) {
+    
+    #india{
+        font-size: 1.5rem;
+    }
+    .landing-page img {
+        width: 70%;
+        margin-top: -3%;
+
+    }
+    .rectangle p{
+        font-size :2.7rem;;
+        font-weight:700;
+        margin-top: -2%;
+       
+    }
+    #main-heading{
+        font-size: 2rem;
+    }
+    .rectangle {
+        width: 90%; 
+        height: 46%;
+    }
+    #choose{
+        font-size: 2.5rem;
+    }
+    #para{
+        font-size: 1rem;
+    }
+    
+    
+}
+/*for iphone5
+@media (min-width:320px)
+{
+    .rectangle  p{
+        font-size: 24px;    
+    }
+    #main-heading{
+        font-size: 20px;
+    }
+  .loc{
+    visibility: hidden;
+  }
+}*/
